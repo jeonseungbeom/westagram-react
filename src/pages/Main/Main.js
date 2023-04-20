@@ -7,17 +7,17 @@ const Main = () => {
     <>
         <nav>
             <div>
-                <img className='instagram-navIcon' src='images/instagram.png' />
+                <img className='instagram-navIcon' src='/images/instagram.png' alt='' />
                 <span className='logo-write'>Westagram</span>
             </div>
             <div>
-                <input className='search' type='text' placeholder='검색' />
-                <img className='search-navIcon' src='images/search.png' />
+                <input className='search' type='text' placeholder='검색' alt='' />
+                <img className='search-navIcon' src='/images/search.png' alt='' />
             </div>
             <div>
-                <img className='explore-navIcon' src='images/explore.png' />
-                <img className='heart-navIcon' src='images/heart.png' />
-                <img className='profile-navIcon' src='images/profile.png' />
+                <img className='explore-navIcon' src='/images/explore.png' alt='' />
+                <img className='heart-navIcon' src='/images/heart.png' alt='' />
+                <img className='profile-navIcon' src='/images/profile.png' alt='' />
             </div>
         </nav>
 
@@ -25,22 +25,22 @@ const Main = () => {
             <section className='main-feed-area'>
                 <div className='feed-profile-area'>
                     <div>
-                        <img className='profile-img' src='images/profilepicture.jpeg' />
+                        <img className='profile-img' src='/images/profilepicture.jpeg' alt='' />
                         <span className='profile-name'>seungbeom_jeon</span>
                     </div>
-                    <img className='circle-feedIcon' src='images/circlethree.png' />
+                    <img className='circle-feedIcon' src='/images/circlethree.png' alt='' />
                 </div>
-                <img className='feed-img' src='images/feed.jpg' />
+                <img className='feed-img' src='/images/feed.jpg' alt='' />
                 <div className='icon-area'>
                     <span>
-                        <img className='heart-red-feedIcon' src='images/heartred.png' />
-                        <img className='dm-feedIcon' src='images/dm.png' />
-                        <img className='download-feedIcon' src='images/download.png' />
+                        <img className='heart-red-feedIcon' src='/images/heartred.png' alt='' />
+                        <img className='dm-feedIcon' src='/images/dm.png' alt='' />
+                        <img className='download-feedIcon' src='/images/download.png' alt='' />
                     </span>
-                    <img className='bookmark-feedIcon' src='images/bookmark.png' />
+                    <img className='bookmark-feedIcon' src='/images/bookmark.png' alt='' />
                 </div>
                 <div>
-                    <img className='wecode-feedIcon' src='images/wecode.png' />
+                    <img className='wecode-feedIcon' src='/images/wecode.png' alt='' />
                     <span className='feed-likeNum'>wecode님 외 7명이 좋아합니다</span>
                     <div className='comment-area'>
                         <div className='comment-first'>
@@ -56,10 +56,10 @@ const Main = () => {
                                     <span>wecode 다 같이 화이팅~~~!</span>
                                     <span className='deleteAndLike'>
                                         <button className='delete-button'>
-                                            <img className='delete-commentIcon' src='images/deleteicon.png' />
+                                            <img className='delete-commentIcon' src='/images/deleteicon.png' alt='' />
                                         </button>
                                         <button className='like-button'>
-                                            <img className='heart-commentIcon' src='images/heart.png' />
+                                            <img className='heart-commentIcon' src='/images/heart.png' alt='' />
                                         </button>
                                     </span>
                                 </div>
@@ -76,7 +76,7 @@ const Main = () => {
             
             <aside className='main-right-area'>
                 <section className='user-area'>
-                    <img src='images/wecode.png' />
+                    <img src='/images/wecode.png' alt='' />
                     <span className='userName'>
                         <div>wecode_bootcamp</div>
                         <div className='userName-sub'>WeCode | 위코드</div>
@@ -84,30 +84,30 @@ const Main = () => {
                 </section>
                 <section className='story-area'>
                     <span className='story-title'>스토리</span>
-                    <a href='#'>모두 보기</a>
+                    <a href='instead#'>모두 보기</a>
                     <div className='story-member'>
-                        <img className='profile-img' src='images/profilepicture.jpeg' />
+                        <img className='profile-img' src='/images/profilepicture.jpeg' alt='' />
                         <div>
                             <div>beom_jeon</div>
                             <div className='story-time'>20분 전</div>
                         </div>
                     </div>
                     <div className='story-member'>
-                        <img className='profile-img' src='images/profilepicture.jpeg' />
+                        <img className='profile-img' src='/images/profilepicture.jpeg' alt='' />
                         <div>
                             <div>beom_jeon</div>
                             <div className='story-time'>20분 전</div>
                         </div>
                     </div>
                     <div className='story-member'>
-                        <img className='profile-img' src='images/profilepicture.jpeg' />
+                        <img className='profile-img' src='/images/profilepicture.jpeg' alt='' />
                         <div>
                             <div>beom_jeon</div>
                             <div className='story-time'>20분 전</div>
                         </div>
                     </div>
                     <div className='story-member'>
-                        <img className='profile-img' src='images/profilepicture.jpeg' />
+                        <img className='profile-img' src='/images/profilepicture.jpeg' alt='' />
                         <div>
                             <div>beom_jeon</div>
                             <div className='story-time'>20분 전</div>
@@ -116,38 +116,38 @@ const Main = () => {
                 </section>
                 <section className='recommend-area'>
                     <span className='recommend-title'>회원님을 위한 추천</span>
-                    <a href='#'>모두 보기</a>
+                    <a href='instead#'>모두 보기</a>
                     <div className='recommend-member'>
-                        <img className='profile-img' src='images/profilepicture.jpeg' />
+                        <img className='profile-img' src='/images/profilepicture.jpeg' alt='' />
                         <div>
                             <div>seung_jeon</div>
                             <div className='recommend-relate'>beom_jeon님 외 2명이 ...</div>
                         </div>
-                        <a href='#' className='recommend-follow'>팔로우</a>
+                        <a href='instead#' className='recommend-follow'>팔로우</a>
                     </div>
                     <div className='recommend-member'>
-                        <img className='profile-img' src='images/profilepicture.jpeg' />
+                        <img className='profile-img' src='/images/profilepicture.jpeg' alt='' />
                         <div>
                             <div>seung_jeon</div>
                             <div className='recommend-relate'>beom_jeon님 외 2명이 ...</div>
                         </div>
-                        <a href='#' className='recommend-follow'>팔로우</a>
+                        <a href='instead#' className='recommend-follow'>팔로우</a>
                     </div>
                     <div className='recommend-member'>
-                        <img className='profile-img' src='images/profilepicture.jpeg' />
+                        <img className='profile-img' src='/images/profilepicture.jpeg' alt=''/>
                         <div>
                             <div>seung_jeon</div>
                             <div className='recommend-relate'>beom_jeon님 외 2명이 ...</div>
                         </div>
-                        <a href='#' className='recommend-follow'>팔로우</a>
+                        <a href='instead#' className='recommend-follow'>팔로우</a>
                     </div>
                     <div className='recommend-member'>
-                        <img className='profile-img' src='images/profilepicture.jpeg' />
+                        <img className='profile-img' src='/images/profilepicture.jpeg' alt='' />
                         <div>
                             <div>seung_jeon</div>
                             <div className='recommend-relate'>beom_jeon님 외 2명이 ...</div>
                         </div>
-                        <a href='#' className='recommend-follow'>팔로우</a>
+                        <a href='instead#' className='recommend-follow'>팔로우</a>
                     </div>
                 </section>
                 <footer>
